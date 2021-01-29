@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WPTCJTVWYP"></script>
+	<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-WPTCJTVWYP');
+	</script>
+	<title>off-road Коломия 4х4 (Найкраща СТО, Магазин Якісних Запчатин)</title>
+	<meta name="description"
+	      content="Якісний сервіс! (евакуатор, ремонт, тюнінг позашляховиків). Магазин автозапчастин, Клуб 4х4! Україна, вул. Майданського 12, Коломия Івано-Франківська обл.
+"/>
+	<meta name="keywords" content="Offroad Коломия 4х4 Nissan Patrol Toyota" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="stylesheet" href="css/all.min.css" type="text/css"/>
+	<link rel="stylesheet" href="css/style.min.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+	<!--	Top menu -->
+	<div class="top__menu_wrap wrap">
+		<div class="top__menu_language uppercase">
+			<p>мова:</p>
+			<div class="dropdown">
+				<button onclick="LanguageDropdown()" class="dropbtn uppercase">українська</button>
+				<div id="langDropdown" class="dropdown__content">
+					<a href="#">руский</a>
+					<a href="#">English</a>
+				</div>
+			</div>
+		</div>
+		<p class="top__menu_days">з Пн. по Пт. з 9.00 до 19.00</p>
+		<a class="top__menu_phone" href="tel:+380666304403">
+			+38 066 630 44 03
+		</a>
+	</div>
+	<!--	Fixed menu -->
+	<div class="fixed">
+		<div class="fixed__wrap wrap">
+			<div class="fixed__phone">
+				<a href="tel:+380666304403">
+					<img src="img/svg/telefon.svg" alt="Телефон">
+				</a>
+			</div>
+			<div class="fixed__logo">
+				<a class="logo" href="#firstPage">
+					<img src="img/svg/Logo.svg" alt="logo">
+				</a>
+			</div>
+			<div class="fixed__menu">
+				<span class="menu_text">меню</span>
+				<div class="fixed__menu_hamburger">
+					<input id="menu__toggle" type="checkbox"/>
+					<label class="menu__btn" for="menu__toggle">
+						<span></span>
+					</label>
+					<ul class="menu__box">
+						<li>
+							<a class="menu__item " href="#firstPage">
+								<img src="img/svg/logo-jeep.svg" alt="logo jeep" class="item_icon">
+								<span class="item_text">
+									головна
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu__item " href="#secondPage">
+								<img src="img/svg/sto.svg" alt="sto" class="item_icon">
+								<span class="item_text header__item_sto">
+									сто
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu__item " href="#thirdPage">
+								<img src="img/svg/basket.svg" alt="basket" class="item_icon">
+								<span class="item_text">
+									магазин <br>
+									автозапчастин
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu__item " href="#fourthPage">
+								<img src="img/svg/club.svg" alt="club" class="item_icon">
+								<span class="item_text">
+									клуб 4х4
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu__item " href="#lastPage">
+								<img src="img/svg/geolocation_white.svg" alt="geolocation" class="item_icon">
+								<span class="item_text">
+									контакти
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="fixed__coordinates">
+				<a class="coordinates" href="#lastPage">
+					<span class="coordinates_text uppercase">контакти</span>
+					<img class="coordinates_icon" src="img/svg/geolocation.svg" alt="geolocation">
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--Scroll-->
+	<ul class="scroll">
+		<li data-menuanchor="firstPage" class="scroll__item active">
+			<a aria-label="First screen" href="#firstPage"></a>
+		</li>
+		<li data-menuanchor="secondPage" class="scroll__item">
+			<a aria-label="Second screen" href="#secondPage"></a>
+		</li>
+		<li data-menuanchor="thirdPage" class="scroll__item">
+			<a aria-label="Third screen" href="#thirdPage"></a>
+		</li>
+		<li data-menuanchor="fourthPage" class="scroll__item">
+			<a aria-label="Fourth screen" href="#fourthPage"></a>
+		</li>
+		<li data-menuanchor="lastPage" class="scroll__item">
+			<a aria-label="last screen" href="#lastPage"></a>
+		</li>
+	</ul>
+	<a class="scroll-button">
+		<img class="scroll-button_img" src="img/svg/scroll.svg" alt="Down">
+		<span>Scroll</span>
+	</a>
+
+	<!--	Init fullpage plugin-->
+	<div class="fullpage">
+		<!--	Header -->
+		<div class="header section wrap">
+			<h1 class="title">off-road kolomyia 4x4</h1>
+			<ul class="header__list">
+				<li>
+					<a class="btn" href="#secondPage">
+						<img src="img/svg/sto.svg" alt="sto" class="item_icon">
+						<p class="item_text">
+							<span class="uppercase header__item_sto">сто</span>
+						</p>
+					</a>
+				</li>
+				<li>
+					<a class="btn item_shop" href="#thirdPage">
+						<img src="img/svg/basket.svg" alt="basket" class="item_icon">
+						<p class="item_text header__item_shop">
+							<span class="uppercase">магазин</span> <br>
+							автозапчастин
+						</p>
+					</a>
+				</li>
+				<li>
+					<a class="btn" href="#fourthPage">
+						<img src="img/svg/club.svg" alt="club" class="item_icon">
+						<p class="item_text">
+							<span class="uppercase">клуб 4х4</span>
+						</p>
+					</a>
+				</li>
+				<li>
+					<a class="btn" href="#lastPage">
+						<img src="img/svg/geolocation_white.svg" alt="geolocation" class="item_icon">
+						<p class="item_text">
+							<span class="uppercase">контакти</span>
+						</p>
+					</a>
+				</li>
+
+			</ul>
+		</div>
+		<!--	STO 4x4 -->
+		<section class="section__sto section section wrap">
+			<h2 class="title _icon-logo_service">Off-road сервіс 4x4</h2>
+			<h5 class="uppercase subtitle">станція технічного обслуговування позашляховиків</h5>
+			<div class="content">
+				<img class="section__img" src="img/svg/sto.svg" alt="sto">
+				<ul class="section__ul">
+					<li class="section__li">
+						Ремонт
+					</li>
+					<li class="section__li">
+						Якісні запчастини
+					</li>
+					<li class="section__li">
+						Удосконалення
+					</li>
+					<li class="section__li">
+						Послуги евакуатора
+					</li>
+				</ul>
+			</div>
+			<ul class="social__networks">
+<!--				<li>-->
+<!--					<a class="social_icon _icon-facebook" href="#" target="_blank"></a>-->
+<!--				</li>-->
+				<li>
+					<a class="social_icon _icon-instagram"
+					   href="https://www.instagram.com/offroad_service_4x4_kolomyia/" target="_blank"></a>
+				</li>
+				<li>
+					<a class="social_icon _icon-viber"
+					   href="viber://chat?number=%2B380685095004"
+					   target="_blank"></a>
+				</li>
+				<li>
+					<a class="social_icon _icon-telegram"
+					   href="tg://resolve?domain=kolomyia4x4"
+					    target="_blank"></a>
+				</li>
+			</ul>
+		</section>
+		<!--	SHOP AUTO PARTS -->
+		<section class="section__shop section wrap">
+			<h2 class="title">Off-road Market 4x4</h2>
+			<h5 class="uppercase subtitle">магазин автозапчастин</h5>
+			<ul class="trading-platforms__list">
+				<li class="trading-item">
+					<a class="trading_btn _icon-olx" href="https://www.olx.ua/uk/" target="_blank"></a>
+				</li>
+				<li class="trading-item">
+					<a class="trading_btn _icon-prom" href="https://prom.ua/ua/" target="_blank"></a>
+				</li>
+			</ul>
+			<ul class="shop__list">
+				<li class="item ">
+					<img class="item_icon" src="img/svg/plane.svg" alt="plane">
+					<p class="item_text">
+						Швидка <br>доставка
+					</p>
+				</li>
+				<li class="item">
+					<img class="item_icon" src="img/svg/umbrella.svg" alt="umbrella">
+					<p class="item_text">
+						Безпечні <br>покупки
+					</p>
+				</li>
+				<li class="item">
+					<img class="item_icon" src="img/svg/despetcher.svg" alt="despetcher">
+					<p class="item_text">
+						Технічна <br>підтримка
+					</p>
+				</li>
+			</ul>
+			<ul class="social__networks">
+				<li>
+					<a class="social_icon _icon-facebook" href="https://www.facebook.com/OFM4x4/" target="_blank"></a>
+				</li>
+				<li>
+					<a class="social_icon _icon-instagram" href="https://www.instagram.com/offroad_marker4x4/" target="_blank"></a>
+				</li>
+				<li>
+					<a class="social_icon _icon-viber"
+					   href="viber://chat?number=%2B380685095004" target="_blank"></a>
+				</li>
+				<li>
+					<a class="social_icon _icon-telegram"
+					   href="tg://resolve?domain=kolomyia4x4" target="_blank"></a>
+				</li>
+			</ul>
+		</section>
+		<!--	CLUB 4x4 -->
+		<section class="section__club section wrap">
+			<h2 class="title  _icon-club">клуб 4х4 </h2>
+			<div class="content">
+				<ul class="section__ul">
+					<li class="section__li">
+						Супровід
+					</li>
+					<li class="section__li">
+						Організація подорожей
+					</li>
+					<li class="section__li">
+						Технічна підтримка
+					</li>
+				</ul>
+				<div class="club_gallery">
+					<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/lkNiCfnfZuQ"
+							srcdoc="<style>
+							*{padding:0;margin:0;overflow:hidden}
+							html,body{height:100%}
+							img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+							span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+							</style>
+							<a href=https://www.youtube.com/embed/lkNiCfnfZuQ>
+						    <img src=img/club-youtube.jpg alt='Demo video'>
+						    <span>▶</span>
+						    </a>"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+							title="Demo video">
+					</iframe>
+				</div>
+			</div>
+			<ul class="social__networks">
+				<li>
+					<a class="social_icon _icon-facebook" href="https://www.facebook.com/kklub4x4/" target="_blank"></a>
+				</li>
+				<li>
+					<a class="social_icon _icon-instagram" href="https://www.instagram.com/kklub4x4/" target="_blank"></a>
+				</li>
+				<li>
+					<a class="social_icon _icon-youtube" href="https://www.youtube.com/channel/UCXvWbIevSdtVAy29BNfTSdw/videos" target="_blank"></a>
+				</li>
+				<li>
+					<a class="social_icon _icon-viber"
+					   href="viber://chat?number=%2B380666304403" target="_blank"></a>
+				</li>
+				<li>
+					<a class="social_icon _icon-telegram"
+					   href="tg://resolve?domain=kolomyia4x4" target="_blank"></a>
+				</li>
+			</ul>
+		</section>
+		<!--	CONTACTS -->
+		<section class="section wrap section__contacts ">
+			<h2 class="title">контакти</h2>
+			<div class="contacts__content">
+				<div class="contacts__info">
+					<p class="contacts__time-work">з Пн. по Пт. з 9.00 до 19.00</p>
+					<p class="contacts__phone">
+						<span>Телефон:</span>
+						<a href="tel:+380666304403">+38 066 630 44 03</a>
+					</p>
+					<p class="contacts__mail">
+						<span>Електронна скринька:</span>
+						<a href="mailto:kolomyia4x4@gmail.com" target="_blank">kolomyia4x4@gmail.com</a>
+					</p>
+					<p class="contacts__address">
+						<span>Адреса:</span>
+						<a href="https://g.page/Servis4x4?share" target="_blank">вул. Івана Майданського 12, Коломия,
+							Івано-Франківська область</a>
+					</p>
+				</div>
+				<div class="contacts__map">
+					<a class="map__link" href="https://g.page/Servis4x4?share" target="_blank"></a>
+					<span class="map__circle">
+						<img class="map_img" src="img/svg/map-600x600.svg" alt="map">
+					</span>
+				</div>
+			</div>
+			<div class="contacts__developer">
+				<p class="debugger uppercase">2020 offroad kolomiya 4x4</p>
+				<a href="https://www.facebook.com/WebBoroda/" target="_blank" class="developer">розроблено: <br>WebBoroda</a>
+			</div>
+		</section>
+	</div>
+	<!--	FOOTER -->
+	<footer class="footer fixed__bottom">
+		<div class="footer__address">
+			<p class="bold">Адреса:</p>
+			<p class="">вул. Івана Майданського, 12,</p>
+			<p>Коломия,</p>
+			<p>Івано-Франківська область, 78200</p>
+		</div>
+		<div class="footer__map_debugger">
+			<div class="footer_map">
+				<iframe class="map__picture"
+				        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1075.0617532902058!2d25.021939971896167!3d48.53185638990735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4736d35ec4309a75%3A0xcba5402e305f07e8!2z0KHQtdGA0LLRltGBIE9mZnJvYWQgNHg0!5e1!3m2!1suk!2sua!4v1605545432715!5m2!1suk!2sua"
+				        width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
+				        tabindex="0"></iframe>
+			</div>
+			<p class="debugger">2020 OFFROAD KOLOMIYA 4X4</p>
+		</div>
+		<ul class="footer__menu">
+			<li class="footer__menu_item">
+				<a class="footer__menu_icon _icon-sto" href="#secondPage"></a>
+			</li>
+			<li class="footer__menu_item">
+				<a class="footer__menu_icon _icon-basket" href="#thirdPage"></a>
+			</li>
+			<li class="footer__menu_item">
+				<a class="footer__menu_icon _icon-club" href="#fourthPage"></a>
+			</li>
+			<li class="footer__menu_item">
+				<a class="footer__menu_icon _icon-geolocation" href="#lastPage"></a>
+			</li>
+		</ul>
+		<div class="developer">
+			<p>Розроблено:</p>
+			<a href="https://www.facebook.com/WebBoroda/" target="_blank">
+				<p>web-studio</p>
+			</a>
+		</div>
+	</footer>
+</div>
+
+<script src="js/all.min.js"></script>
+</body>
+</html>
